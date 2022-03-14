@@ -1,0 +1,7 @@
+img {
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+img:hover{
+  border-radius: 50%;
+}
