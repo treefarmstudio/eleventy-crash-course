@@ -5,3 +5,10 @@ img {
 img:hover{
   border-radius: 50%;
 }
+
+.home-card__container {
+  margin: 1rem auto;
+  max-width: 860px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

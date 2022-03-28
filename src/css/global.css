@@ -1,4 +1,5 @@
 @import url('./reset.css');
+@import url('./components/index.css');
 
 h1 {
   color: blue;

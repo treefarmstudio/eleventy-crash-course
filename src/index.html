@@ -8,3 +8,8 @@ title: "Eleventy Crash Course #1"
 <a href="/contact">Go To The Contact Page</a>
 
 <img src="/assets/images/john-fowler-unsplash.jpg" alt="Photo of the stars" width="300px" />
+
+<div class="home-card__container">
+  {% Card title="Hello!!", link="/contact", linkText="Go To Contact" %}
+  {% Card title="Hello!!", link="/contact", linkText="Go To Contact", raised=true %}
+</div>
