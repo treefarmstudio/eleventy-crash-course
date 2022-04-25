@@ -10,6 +10,7 @@ title: "Eleventy Crash Course #1"
 <img src="/assets/images/john-fowler-unsplash.jpg" alt="Photo of the stars" width="300px" />
 
 <div class="home-card__container">
-  {% Card title="Hello!!", link="/contact", linkText="Go To Contact" %}
-  {% Card title="Hello!!", link="/contact", linkText="Go To Contact", raised=true %}
+  {% for card in cards %}
+    {% Card title=card.title, link=card.link, linkText=card.linkText, raised=card.raised %}
+  {% endfor %}
 </div>

@@ -1,0 +1,13 @@
+---
+layout: layouts/home.html
+title: "New York Times Top Stories"
+description: "Hey I'm on the contact page only"
+---
+
+<h1>{{title}}</h1>
+
+<ul>
+  {% for story in topStories.results %}
+    <li><a href="{{ story.url }}" target="_blank" rel="noopener noreferrer">{{story.title}}</a></li>
+  {% endfor %}
+</ul>

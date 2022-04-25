@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Card 1 Title",
+    "link": "/contact",
+    "linkText": "Contact",
+    "raised": true
+  },
+  {
+    "title": "Card 2 Title",
+    "link": "/news",
+    "linkText": "News",
+    "raised": false
+  },
+  {
+    "title": "Card 3 Title",
+    "link": "/contact",
+    "linkText": "Contact",
+    "raised": true
+  }
+]
