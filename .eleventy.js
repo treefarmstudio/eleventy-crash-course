@@ -8,6 +8,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addShortcode("Card", Card);
 
+  eleventyConfig.addCollection('posts', function(collectionApi) {
+    return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md');
+  })
+
   return {
     dir: {
       input: 'src',

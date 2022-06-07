@@ -5,6 +5,8 @@
   {% block head %}{% endblock %}
 </head>
 <body>
-  {{ content | safe }}
+  {% block content %}
+    {{ content | safe }}
+  {% endblock %}
 </body>
 </html>

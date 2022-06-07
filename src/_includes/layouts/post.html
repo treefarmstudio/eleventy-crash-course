@@ -1,0 +1,13 @@
+{% extends "layouts/base.html" %}
+
+{% block head %}
+  <link rel="stylesheet" href="/css/post.css" />
+{% endblock %}
+
+{% block content %}
+  <article class="post__content">
+    <h1>{{ title }}</h1>
+    <p><time>{{ date }}</time></p>
+    {{ content | safe }}
+  </article>
+{% endblock %}
