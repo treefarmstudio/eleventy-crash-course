@@ -4,9 +4,9 @@ title: Example Blog 2
 description: This is an example blog post
 date: 2021-08-31
 author: Jaydan Urwin
-categories:
+tags:
   - Tutorials
-  - Astro
+  - Design
 ---
 
 ## Test Heading 2

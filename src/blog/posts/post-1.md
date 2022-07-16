@@ -4,9 +4,10 @@ title: Example Blog
 description: This is an example blog post
 date: 2021-07-31
 author: Jaydan Urwin
-categories:
+tags:
   - Tutorials
-  - Astro
+  - Web Development
+  - 11ty
 ---
 
 ## Test Heading 2
